@@ -1,0 +1,88 @@
+#documentation {
+    background-color: #2b343a;
+    font-size: 16px;
+    padding-top: 8vh;
+    padding-bottom: 3vh;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#documentation h5 {
+    font-size: 19px;
+}
+
+#documentation .btn {
+    font-size: 17px;
+}
+
+#documentation .download-project {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+#documentation .raporty {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+#documentation .tmp {
+    padding-top: 3vh;
+}
+
+#documentation .row li {
+    padding-bottom: 4px;
+}
+
+@media only screen and (max-width: 770px) {
+    #documentation {
+        padding-bottom: 10vh;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    #documentation {
+        padding-bottom: 8vh;
+    }
+    #documentation .download-project {
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+    }
+    #documentation .raporty {
+        padding-top: 2vh;
+        padding-bottom: 3vh;
+    }
+    #documentation .tmp {
+        padding-top: 2vh;
+    }
+}
+
+.contact li {
+    padding-bottom: 5vh;
+    color: #007bff;
+}
+
+.mail {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+* .counterimg {
+    display: none;
+    visibility: hidden;
+}
+
+.project-link {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.project-link a {
+    width: 100px;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
